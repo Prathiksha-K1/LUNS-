@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 LUNS – Live Urban Nervous System
+### Track 1: Agentic AI with Live Data
 
-## Getting Started
+> **LUNS is an always-on agentic AI system that helps cities sense risks early, predict failures, and act before crises occur.**
 
-First, run the development server:
+LUNS behaves like a **nervous system for urban governance**, using **live data streams** and **autonomous AI agents** that continuously reason and adapt.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚨 Problem Statement
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Modern cities generate massive amounts of data, but still fail because systems:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- React only **after** incidents happen  
+- Rely on **static dashboards**  
+- Break when data changes rapidly  
+- Depend on humans to manually interpret signals  
 
-## Learn More
+Traditional RAG-based AI pipelines quickly become outdated, leading to **stale knowledge and delayed decisions**.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✅ Proposed Solution
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+LUNS introduces a **city-scale agentic AI architecture** where:
 
-## Deploy on Vercel
+- Each urban domain has its **own AI agent**
+- Agents run **continuously** (never sleep)
+- Knowledge updates in real time
+- Risks are predicted before thresholds are crossed
+- Actions and alerts are triggered automatically
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This shifts cities from **reactive response** to **predictive governance**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🧠 Agentic AI Design
+
+Each domain agent continuously performs the following loop:
+
+1. Monitor live signals  
+2. Compare with historical memory  
+3. Detect abnormal drift  
+4. Compute risk score (Low / Moderate / High)  
+5. Predict near-future impact  
+6. Recommend actions  
+7. Trigger alerts (Citizen + Authority)  
+
+This is **agentic behavior**, not query-based AI.
+
+---
+
+## 🌍 Domains Covered
+
+LUNS includes **15 independent AI agents**, each purpose-built:
+
+1. Disaster Management  
+2. Transportation  
+3. Healthcare  
+4. Energy  
+5. Cybersecurity  
+6. Climate & Environment  
+7. Public Safety  
+8. Water Management  
+9. Logistics & Supply Chain  
+10. Economy  
+11. Food Security  
+12. Waste Management  
+13. Industry  
+14. Housing  
+15. Education  
+
+Each agent has **custom signals, memory, predictions, and alerts**.
+
+---
+
+## 🖥️ Screenshots
+<!-- EDIT: Add screenshots inside /screenshots folder -->
+
+```text
+/screenshots
+ ├─ landing.png
+ ├─ login.png
+ ├─ dashboard.png
+ ├─ disaster.png
+ └─ architecture.png
+
