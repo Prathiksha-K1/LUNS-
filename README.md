@@ -71,17 +71,3 @@ LUNS includes **15 independent AI agents**, each purpose-built:
 15. Education  
 
 Each agent has **custom signals, memory, predictions, and alerts**.
-
----
-
-## 🖥️ Screenshots
-<!-- EDIT: Add screenshots inside /screenshots folder -->
-
-```text
-/screenshots
- ├─ landing.png
- ├─ login.png
- ├─ dashboard.png
- ├─ disaster.png
- └─ architecture.png
-
